@@ -4,6 +4,8 @@
 :root {
   --cor-de-fundo: #EBECEE;
   --cor-do-cabecalho: #FFFFFF;
+  --cor-menu-hamburguer-titulo: #EB9B00;
+  --cor-menu-hamburguer-item: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 }
 
 body {

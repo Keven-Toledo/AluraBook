@@ -13,6 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .container {
@@ -23,4 +24,33 @@
 
 .container__imagem {
   padding: 1em;
+}
+
+.lista-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 60vw;
+}
+
+.container__botao:checked~.lista-menu {
+  display: block;
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+  padding: 1em;
+  background-color: var(--cor-do-cabecalho);
+}
+
+.lista-menu__titulo {
+  color: var(--cor-menu-hamburguer-titulo);
+}
+
+.lista-menu__link{
+  background: var(--cor-menu-hamburguer-item);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
 }
