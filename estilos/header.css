@@ -33,6 +33,10 @@
   width: 60vw;
 }
 
+.container__botao {
+  display: none;
+}
+
 .container__botao:checked~.lista-menu {
   display: block;
 }
@@ -45,6 +49,7 @@
 
 .lista-menu__titulo {
   color: var(--cor-menu-hamburguer-titulo);
+  font-weight: 700;
 }
 
 .lista-menu__link{
