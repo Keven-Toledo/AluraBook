@@ -53,7 +53,7 @@
 }
 
 .lista-menu__link{
-  background: var(--cor-menu-hamburguer-item);
+  background: var(--cor-azul-degrade-menu);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

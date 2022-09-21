@@ -1,11 +1,12 @@
 @charset "UTF-8";
 @import url(estilos/header.css);
+@import url(estilos/banner.css);
 
 :root {
   --cor-de-fundo: #EBECEE;
   --cor-do-cabecalho: #FFFFFF;
   --cor-menu-hamburguer-titulo: #EB9B00;
-  --cor-menu-hamburguer-item: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+  --cor-azul-degrade-menu: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
   --fonte-principal: 'Poppins', sans-serif;
 }
 
