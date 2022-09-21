@@ -8,7 +8,9 @@
   --cor-do-cabecalho: #FFFFFF;
   --cor-menu-hamburguer-titulo: #EB9B00;
   --cor-azul-degrade-menu: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+  --cor-azul: #002F52;
   --fonte-principal: 'Poppins', sans-serif;
+
 }
 
 body {
