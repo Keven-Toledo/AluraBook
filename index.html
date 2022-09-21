@@ -11,6 +11,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -53,5 +57,31 @@
     <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
     <input type="search" placeholder="Qual será sua próxima leitura?" class="banner__pesquisa">
   </section>
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+    <!-- Container Principal dos Slides -->
+    <div class="swiper">
+      <!-- Bolinhas da Paginação -->
+      <div class="swiper-pagination"></div>
+      <!-- Bloco dos Slides -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro Sobre Apache Kafta e Spring Boot da Alura Books"></div>
+        <div class="swiper-slide"><img src="img/Arquitetura.svg" alt="Livro Sobre Arquitetura de Software Distribuido da Alura Books"></div>
+        <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro Sobre Javascript assertivo da Alura Books"></div>
+        <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro Sobre Liderança em Design da Alura Books"></div>
+        <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro Sobre Programação em Portugol da Alura Books"></div>
+        <div class="swiper-slide"><img src="img/ReactNative.svg" alt="Livro Sobre ReactNative da Alura Books"></div>
+      </div>
+      
+
+      <!-- Setinhas -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="script/slides.js"></script>
 </body>
 </html>
