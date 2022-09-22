@@ -27,6 +27,10 @@
   display: none;
 }
 
+.container__texto {
+    display: none;
+  }
+
 .container__imagem {
   padding: 1em;
 }
@@ -45,6 +49,14 @@
 
 .container__botao:checked~.lista-menu {
   display: block;
+}
+
+.container__botao:checked~.container__rotulo>.cabecalho__menu-hamburguer {
+  background-image: url(../img/Menu\ Aberto.svg);
+}
+
+.container__botao:checked~.container__rotulo {
+  background: var(--cor-azul-degrade-menu);
 }
 
 .lista-menu__titulo,
@@ -77,10 +89,6 @@
   .container__titulo {font-weight: 400;}
 
   .container__titulo-negrito {font-weight: 700;}
-
-  .container__texto {
-    display: none;
-  }
 
   .opcoes {
     display: flex;
