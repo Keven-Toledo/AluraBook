@@ -60,3 +60,7 @@
   background-clip: text;
   text-transform: uppercase;
 }
+
+@media (min-width: 1024px) {
+  
+}
