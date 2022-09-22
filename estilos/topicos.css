@@ -42,3 +42,10 @@
     padding: 1em;
   }
 }
+
+@media (min-width: 1728px) {
+  .topicos__lista {
+    width: 60%;
+    padding: 2em;
+  }
+}
