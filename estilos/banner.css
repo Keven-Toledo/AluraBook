@@ -36,8 +36,10 @@
 }
 
 @media (min-width: 1024px) {
-  .banner__titulo {font-size: 36px;}
-  .banner__pesquisa {width: 50%;}
-  .banner__pesquisa::placeholder {background-position: 7em;}
   .banner {padding: 4.5em 4em;}
+  .banner__titulo {font-size: 36px;}
+  .banner__texto {margin: 1em 0 2em;}
+  .banner__pesquisa {width: 50%;}
+  .banner__pesquisa::placeholder {background-position: 5em;}
+  
 }
