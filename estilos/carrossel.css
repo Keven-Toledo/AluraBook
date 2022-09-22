@@ -47,6 +47,7 @@
 .descricao__titulo {
   color: var(--cor-menu-hamburguer-titulo);
   font-weight: 700;
+  margin: 0.5em 0 0;
 }
 
 .descricao__titulo-livro {
