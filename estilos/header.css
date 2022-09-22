@@ -78,6 +78,10 @@
 
   .container__titulo-negrito {font-weight: 700;}
 
+  .container__texto {
+    display: none;
+  }
+
   .opcoes {
     display: flex;
   }
@@ -125,5 +129,30 @@
 
   .opcoes__botao {
     display: none;
+  }
+}
+
+@media (min-width: 1728px) {
+  .container {
+    margin-right: 2em;
+  }
+
+  .container__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--preto);
+  }
+
+  .container__texto {
+    display: block;
+  }
+
+  .cabecalho {
+    padding: 2em;
+  }
+
+  .opcoes {
+    margin-right: auto;
   }
 }
