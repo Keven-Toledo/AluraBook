@@ -12,8 +12,9 @@
   --cor-menu-hamburguer-titulo: #EB9B00;
   --cor-azul-degrade-menu: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
   --cor-azul: #002F52;
+  --preto: #000;
   --fonte-principal: 'Poppins', sans-serif;
-  --fonte-titulo: 'Josefin Sans', sans-serif;
+  --fonte-secundaria: 'Josefin Sans', sans-serif;
 }
 
 body {
