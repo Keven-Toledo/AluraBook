@@ -49,12 +49,40 @@
       <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
       <h1 class="container__titulo"><b class="container__titulo-negrito">Alura</b>Books</h1>
     </div>
-    <!-- MENU TABLET-->
-    <nav class="opcoes">
-      <a href="#" class="opcoes__item">categorias</a>
-      <a href="#" class="opcoes__item">favoritos</a>
-      <a href="#" class="opcoes__item">minha estante</a>
-    </nav>
+    <!-- MENU DESKTOP (CATEGORIA)-->
+    <ul class="opcoes">
+      <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+      <label for="opcoes-menu" class="opcoes__categorias">
+        <li class="opcoes__item categoria">categorias</li>
+      </label>
+      <!-- LISTA DO MENU CATEGORIAS -->
+      <nav class="lista-menu">
+        <ul>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Programação</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Front-end</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Infraestrutura</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Business</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Design & UX</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- MENU DESKTOP (CONTINUAÇÃO)-->
+      <li class="opcoes__item">
+        <a href="#" class="opcoes__link">favoritos</a>
+      </li>
+      <li class="opcoes__item">
+        <a href="#" class="opcoes__link">minha estante</a>
+      </li>
+    </ul>
     <!-- BARRA DE NAVEGAÇÃO ENTRE FAVORITOS, COMPRAS E PERFIL -->
     <nav class="container">
       <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem favorito__transparente"></a>
