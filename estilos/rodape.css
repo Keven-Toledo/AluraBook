@@ -1,0 +1,9 @@
+@charset "UTF-8";
+hr {
+  margin: 0;
+}
+
+.rodape {
+  background-color: var(--cor-do-cabecalho);
+  padding: 1em;
+}
